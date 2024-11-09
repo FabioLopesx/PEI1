@@ -368,8 +368,7 @@ a {
 .fone h4 {
   padding-bottom: 10px;
   padding-top: 10px;
-  font-weight: 800;
-  font-size: 20px;
+  font-size: 16px;
 }
 .fone a {
   color: #fff;
@@ -429,11 +428,11 @@ a {
   color: #fff;
 }
 .contactLogin {
-  height: 100%;
+  height: 100vh;
 }
 .contact1 img {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 .contact2 {
   position: absolute;
@@ -515,7 +514,7 @@ a {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 100%;
+    left: -100%;
     display: flex;
     flex-direction: column;
     background: #f3f8ff;
@@ -599,19 +598,55 @@ a {
     padding: 40px 20px;
     text-align: center;
   }
+  .contactLogin {
+    height: 840px;
+  }
+  .contact1 img {
+    width: 100%;
+    height: 100vh;
+  }
+  .contact2 {
+    padding-left: 130px;
+  }
 }
 
 @media (max-width: 700px) {
   .infoSafe {
     max-width: 600px;
   }
+  .contact2 {
+    padding-left: 100px;
+  }
 }
+@media (max-width: 650px) {
+  .contactLogin {
+    height: 100vh;
+  }
+  .contact1 img {
+    width: 100%;
+    height: 100vh;
+  }
+  .contact2 {
+    padding-left: 80px;
+  }
+}
+
 @media (max-width: 550px) {
   .infoSafe {
     max-width: 450px;
   }
   .infContact {
     padding-left: 50px;
+  }
+  .contact {
+    height: 100%;
+    padding-bottom: 15px;
+  }
+  .contact2 {
+    padding-left: 50px;
+  }
+  .contact2 input {
+    width: 400px;
   }
 }
 
@@ -685,5 +720,19 @@ a {
   }
   .appDelivery .appIp {
     margin-bottom: 20px;
+  }
+  .news {
+    max-width: 350px;
+    padding: auto 20px;
+  }
+  .contact1 img {
+    width: 100%;
+    height: 100vh;
+  }
+  .contact2 {
+    padding-left: 30px;
+  }
+  .contact2 input {
+    max-width: 330px;
   }
 }
