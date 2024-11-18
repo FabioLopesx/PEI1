@@ -8,12 +8,12 @@
 Próximo passo:
 1. Fazer download do arquivo "pedidos.csv" no site;
 2. Dentro do código python escolher um diretório (" colar caminho") para estar colocando o arquivo.
- # passo 4: calcular os indicadores
+ passo 4: calcular os indicadores
 
 tabela = pd.read_csv(r"CAMINHO AQUI", sep=";")
 
 3. Só colocar o arquivo "pedidos.csv"  neste diretório e executar o código python. Após isso, será enviado um relatório contendo uma análise crítica do arquivo em csv para o email cadastrado no código.
  
- # enviar um email com o relatório
+ enviar um email com o relatório
 
 mail.To = 'EMAIL AQUI'
