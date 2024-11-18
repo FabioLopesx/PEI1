@@ -309,39 +309,6 @@ a {
   border-radius: 20px;
   border: none;
 }
-.delivery {
-  height: 410px;
-  background: linear-gradient(180deg, #6fb6f8 0%, #92c7fa 100%);
-  display: flex;
-  justify-content: center;
-  line-height: 80px;
-  color: #fff;
-}
-.deliveryRote h2 {
-  padding-top: 80px;
-}
-.deliveryRote p {
-  text-align: center;
-  font-size: 14px;
-}
-.appDelivery {
-  text-align: center;
-}
-.deliveryRote .appIp {
-  border-radius: 40px;
-  padding: 10px 20px;
-  background: #fdb235;
-  border: none;
-  margin-right: 20px;
-}
-
-.deliveryRote .appAn {
-  border-radius: 40px;
-  padding: 10px 20px;
-  background: #fff;
-  border: none;
-  color: #6fb6f8;
-}
 .contact {
   height: 780px;
   background: #02033b;
